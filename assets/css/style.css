@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+body {
+background: rgba(15, 15, 182, 0.712);
+}
+
+body {
+    position: relative;
+    height: 1vh;
+    width: 1vw;
+}
+
+form {
+    position: absolute;
+    display: grid;
+    left: 550px;
+    top: 150px;
+    background: white;
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: baseline;
+}
+
+.tituloH1 {
+    position: relative;
+    left: 27px;
+    top: -5px;
+    margin: 5px;
+}
+
+td{
+ padding-left: 10px;
+ font-size: 14.5px;
+}
+
+.titulo {
+    font-size: 15px;
+}
+
+.sub-titulo {
+    position: relative;
+    left: 12px;
+}
+
+.inputs {
+    position: relative;
+    width: 280px;
+    height: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 0.01px solid;
+    left: 7px;
+    padding:2px;
+}
+#button {
+    background: rgb(43, 255, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    height: 30px;
+}
+
+#button:hover {
+    background: rgb(33, 201, 0);
+}
+
+.paragrafo-resultado {
+    border-radius: 10px;
+    background: rgba(15, 167, 1, 0.712)
+}
+.erro{
+    border-radius: 10px;
+    background: rgba(255, 26, 26, 0.774);
+}
+.amarelo{
+    background: rgb(255, 238, 0);
+    border-radius: 10px;
+}
+p{
+    margin: 5px;
+    position: relative;
+    padding: 2px;
+}
